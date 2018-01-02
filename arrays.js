@@ -23,3 +23,12 @@ function destructivelyAddElementToEndOfArray (array, element) {
 function accessElementInArray (array, index) {
   return array[index]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray (array) {
+  return array.pop
+}
+
+function removeElementFromBeginningOfArray (array) {
+  var newArray = array.slice[0];
+  return NewArray
+}
